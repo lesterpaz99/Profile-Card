@@ -37,7 +37,7 @@ main {
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-size: 480px, 520px;
     background-repeat: no-repeat, no-repeat;
-    background-position: -280px -250px, 170px 290px;
+    background-position: -280px -250px,  calc(100% + 240px) calc(100% + 265px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,8 @@ main {
 .main-card__container {
     width: 86%;
     height: 62%;
+    max-width: 380px;
+    max-height: 400px;
     border-radius: 15px;
     background-color: white;
 }
@@ -113,5 +115,14 @@ footer {
     color: rgba(255, 255, 255, 0.8);
     font-size: 1.2rem;
     text-align: center;
-    padding: 1rem;
+}
+
+footer p {
+    padding-bottom: 1rem;
+}
+footer a {
+    text-decoration: none;
+    color: var(--dark-blue);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.3rem;
 }
