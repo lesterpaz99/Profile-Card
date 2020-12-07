@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Profile card component</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">  
-  <link rel="stylesheet" href="/styles/mobile.css">
-</head>
-<body>
-  <main>
-    <section class="main-card__container">
-      <div class="main-card__header-img"></div>
-      <section class="card-profile">
-        <div class="card__profile-img"></div>
-        Victor Crest
-        26
-        London
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/mobile.css" />
+  </head>
+  <body>
+    <main>
+      <section class="main-card__container">
+        <div class="main-card__header-img"></div>
+        <section class="card-profile">
+          <div class="card__profile-img">
+            <img src="./images/image-victor.jpg" alt="Profile Picture">
+          </div>
+          <div class="profile-data">
+            <p class="name">Victor Crest <span> 26</span></p>
+            <p class="city">London</p>
+          </div>
+        </section>
+        <section class="profile-stats">
+          <div><p class="stats">80K</p><span>Followers</span></div>
+          <div><p class="stats">803K</p><span>Likes</span></div>
+          <div><p class="stats">1.4K</p><span>Photos</span></div>
+        </section>
       </section>
-      <section>
-        <div>
-          80K
-          Followers
-        </div>
-        <div>
-          803K
-         Likes
-        </div>
-        <div>
-          1.4K
-          Photos
-        </div>
-      </section>
-    </section>
-    <div class="attribution">
-      Challenge by <a rel="noopener noreferrer" href="https://www.frontendmentor.io?ref=challenge"  target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://twitter.com/LesterObedPaz">Obed Paz</a>.
-    </div>
-  </main>
-</body>
+    </main>
+  </body>
+  <footer class="attribution">
+    Challenge by
+    <a
+      rel="noopener noreferrer"
+      href="https://www.frontendmentor.io?ref=challenge"
+      target="_blank"
+      >Frontend Mentor</a
+    >. Coded by <a href="https://twitter.com/LesterObedPaz">Obed Paz</a>.
+  </footer>
 </html>
