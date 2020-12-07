@@ -37,7 +37,7 @@ main {
     background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
     background-size: 480px, 520px;
     background-repeat: no-repeat, no-repeat;
-    background-position: -280px -250px,  calc(100% + 240px) calc(100% + 265px);
+    background-position: -280px -250px,  calc(100% + 320px) calc(100% + 265px);
     display: flex;
     justify-content: center;
     align-items: center;
