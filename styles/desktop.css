@@ -1,0 +1,4 @@
+main {
+    background-size: 900px, 920px;
+    background-position: -350px -420px, calc(100% + 320px) calc(100% + 530px);
+}
